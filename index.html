@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #CD8A8C;
+    -webkit-transition: all 1000ms ease-in-out 0ms;
+    -o-transition: all 1000ms ease-in-out 0ms;
+    transition: all 1000ms ease-in-out 0ms;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #A5CCFB;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+
+}
+	
+	
+.box3 {
+    background-color: #89AF78;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all 1000ms ease-in-out 0ms;
+    -o-transition: all 1000ms ease-in-out 0ms;
+    transition: all 1000ms ease-in-out 0ms;
+}
+.box1:hover {
+    background-color: #B389B7;
+    transform: translate(20px , 20px);
+    -webkit-transform: translate(20px , 20px);
+    -o-transform: translate(20px , 20px);
+    font-size: 20px;
+    font-weight: bold;
+}
+.box2:hover {
+    background-color: #B389B7;
+    transform: rotate(45deg);
+    font-size: 20px;
+    font-weight: bold;
+}
+.box3:hover {
+    background-color: #B389B7;
+    font-size: 30px;
+	transform: scale(2,2)
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="box1">位移</div>
+  <div class="box2">旋轉</div>
+  <div class="box3">縮放</div>
+</div>
+</body>
+</html>
